@@ -1,0 +1,57 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Exams">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/APPATHON"
+                    android:icon="@drawable/baseline_diversity_1_24"
+                    android:title="APPATHON - Community connect" />
+                <item
+                    android:id="@+id/cia2"
+                    android:icon="@drawable/baseline_sports_cricket_24"
+                    android:title="IPL - Fan Connect" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Lab Exercises">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_hello"
+                    android:icon="@drawable/hello_worls"
+                    android:title="hello world" />
+                <item
+                    android:id="@+id/nav_calc"
+                    android:icon="@drawable/calculator"
+                    android:title="Calculator" />
+                <item
+                    android:id="@+id/nav_alc"
+                    android:icon="@drawable/lifecycle"
+                    android:title="Activity Life Cycle" />
+                <item
+                    android:id="@+id/nav_lac"
+                    android:icon="@drawable/baseline_assured_workload_24"
+                    android:title="Life At Christ" />
+                <item
+                    android:id="@+id/nav_Fragments"
+                    android:icon="@drawable/baseline_filter_frames_24"
+                    android:title="Fragments" />
+            </group>
+        </menu>
+    </item>
+
+    <item
+        android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/nav_logout"
+                android:title="Logout"/>
+        </menu>
+    </item>
+</menu>
